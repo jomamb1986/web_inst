@@ -1,0 +1,31 @@
+.report-management {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.report-management h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.report-actions {
+  margin-bottom: 30px;
+}
+
+.report-actions h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.report-list h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}

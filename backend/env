@@ -1,0 +1,7 @@
+PORT=3000
+DB_USER=cnsoruro
+DB_HOST=172.27.8.17
+DB_NAME=cns_db
+DB_PASSWORD=CnsOruro2025
+DB_PORT=5432
+JWT_SECRET=secreto_muy_seguro

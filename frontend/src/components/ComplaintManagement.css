@@ -1,0 +1,33 @@
+.complaint-management {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.complaint-management h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status.sin-atender {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status.en-proceso {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.atendida {
+  background-color: #d4edda;
+  color: #155724;
+}
