@@ -1,0 +1,44 @@
+.rrpp-dashboard {
+  padding: 20px 0;
+}
+
+.dashboard-title {
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    flex: 1;
+    width: 100%;
+  }
+}
