@@ -380,7 +380,7 @@ const LoginModal = ({ onClose, onLogout }) => {
                 <label htmlFor="email">Email:</label>
                 <input
                   type="email"
-                  id="email"
+                  id="login-email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
@@ -393,7 +393,7 @@ const LoginModal = ({ onClose, onLogout }) => {
                 <label htmlFor="password">Contraseña:</label>
                 <input
                   type="password"
-                  id="password"
+                  id="login-password"
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
@@ -412,5 +412,6 @@ const LoginModal = ({ onClose, onLogout }) => {
     </div>
   );
 };
+
 
 export default LoginModal;
